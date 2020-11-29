@@ -1,0 +1,1282 @@
+.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.
+.------------------- TASTYIGNITER SETUP LOG ------------------.
+.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.
+[2020/11/28 05:20:26] => Host: Linux debian 4.19.0-9-amd64 #1 SMP Debian 4.19.118-2 (2020-04-29) x86_64
+[2020/11/28 05:20:26] => PHP version: 7.4.12
+[2020/11/28 05:20:26] => Server software: Apache/2.4.46 (Unix) OpenSSL/1.1.1h PHP/7.4.12 mod_perl/2.0.11 Perl/v5.32.0
+[2020/11/28 05:20:26] => Operating system: Linux
+[2020/11/28 05:20:26] => Memory limit: 512M
+[2020/11/28 05:20:26] => Max execution time: 120
+[2020/11/28 05:20:26] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:26] => Postback payload: Array
+(
+    [code] => php
+    [handler] => onCheckRequirements
+)
+
+[2020/11/28 05:20:26] => System check: php
+[2020/11/28 05:20:26] => Requirement php +OK
+[2020/11/28 05:20:26] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:20:27] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:27] => Postback payload: Array
+(
+    [code] => pdo
+    [handler] => onCheckRequirements
+)
+
+[2020/11/28 05:20:27] => System check: pdo
+[2020/11/28 05:20:27] => Requirement pdo +OK
+[2020/11/28 05:20:27] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:20:29] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:29] => Postback payload: Array
+(
+    [code] => curl
+    [handler] => onCheckRequirements
+)
+
+[2020/11/28 05:20:29] => System check: curl
+[2020/11/28 05:20:29] => Requirement curl +OK
+[2020/11/28 05:20:29] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:20:30] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:30] => Postback payload: Array
+(
+    [code] => connection
+    [handler] => onCheckRequirements
+)
+
+[2020/11/28 05:20:30] => System check: connection
+[2020/11/28 05:20:30] => Server request: ping
+[2020/11/28 05:20:32] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 1058
+    [request_size] => 184
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1.866438
+    [namelookup_time] => 0.087485
+    [connect_time] => 0.117729
+    [pretransfer_time] => 0.921476
+    [size_upload] => 48
+    [size_download] => 27
+    [speed_download] => 14
+    [speed_upload] => 25
+    [download_content_length] => -1
+    [upload_content_length] => 48
+    [starttransfer_time] => 1.866392
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.114.215
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.64.4
+    [local_port] => 60954
+    [http_version] => 2
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+)
+
+[2020/11/28 05:20:32] => Requirement connection +OK
+[2020/11/28 05:20:32] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:20:34] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:34] => Postback payload: Array
+(
+    [code] => mbstring
+    [handler] => onCheckRequirements
+)
+
+[2020/11/28 05:20:34] => System check: mbstring
+[2020/11/28 05:20:34] => Requirement mbstring +OK
+[2020/11/28 05:20:34] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:20:35] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:35] => Postback payload: Array
+(
+    [code] => ssl
+    [handler] => onCheckRequirements
+)
+
+[2020/11/28 05:20:35] => System check: ssl
+[2020/11/28 05:20:35] => Requirement ssl +OK
+[2020/11/28 05:20:35] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:20:37] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:37] => Postback payload: Array
+(
+    [code] => gd
+    [handler] => onCheckRequirements
+)
+
+[2020/11/28 05:20:37] => System check: gd
+[2020/11/28 05:20:37] => Requirement gd +OK
+[2020/11/28 05:20:37] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:20:38] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:38] => Postback payload: Array
+(
+    [code] => zip
+    [handler] => onCheckRequirements
+)
+
+[2020/11/28 05:20:38] => System check: zip
+[2020/11/28 05:20:38] => Requirement zip +OK
+[2020/11/28 05:20:38] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:20:40] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:40] => Postback payload: Array
+(
+    [code] => writable
+    [handler] => onCheckRequirements
+)
+
+[2020/11/28 05:20:40] => System check: writable
+[2020/11/28 05:20:40] => Requirement writable +OK
+[2020/11/28 05:20:40] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:20:44] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:20:44] => Postback payload: Array
+(
+    [license_agreed] => 1
+    [requirement] => complete
+    [handler] => onCheckLicense
+)
+
+[2020/11/28 05:20:44] => License & requirement check: complete
+[2020/11/28 05:20:44] => Execute handler (onCheckLicense): Array
+(
+    [step] => database
+)
+
+[2020/11/28 05:21:29] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:21:29] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:21:29] => Database check: restoran_db
+[2020/11/28 05:21:29] => Database restoran_db +OK
+[2020/11/28 05:21:29] => Execute handler (onCheckDatabase): Array
+(
+    [step] => settings
+)
+
+[2020/11/28 05:21:52] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:21:52] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:21:52] => Settings check: Menoo
+[2020/11/28 05:21:52] => Settings +OK
+[2020/11/28 05:21:52] => Execute handler (onValidateSettings): Array
+(
+    [step] => install
+)
+
+[2020/11/28 05:22:09] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:22:09] => Postback payload: Array
+(
+    [site_key] => 
+    [requirement] => complete
+    [handler] => onFetchItems
+)
+
+[2020/11/28 05:22:09] => Server request: items
+[2020/11/28 05:22:10] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/items
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 1054
+    [request_size] => 227
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1.419696
+    [namelookup_time] => 0.056778
+    [connect_time] => 0.112084
+    [pretransfer_time] => 0.693577
+    [size_upload] => 90
+    [size_download] => 3330
+    [speed_download] => 2345
+    [speed_upload] => 63
+    [download_content_length] => -1
+    [upload_content_length] => 90
+    [starttransfer_time] => 1.419457
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.115.215
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.64.4
+    [local_port] => 52670
+    [http_version] => 2
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+)
+
+[2020/11/28 05:22:10] => Execute handler (onFetchItems): Array
+(
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [code] => tastyigniter-orange
+                    [name] => TastyIgniter Orange
+                    [author] => TastyIgniter Dev Team
+                    [icon] => https://d980sf4vy2c60.cloudfront.net/public/5fb/52d/2e5/5fb52d2e528bf457354399.png
+                    [type] => theme
+                    [version] => v2.7.0
+                    [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap 4.
+                    [homepage] => https://tastyigniter.com/marketplace/item/tastyigniter-orange
+                    [created_at] => 2018-04-27T22:47:40.000000Z
+                    [updated_at] => 2020-11-18T14:18:24.000000Z
+                    [require] => Array
+                        (
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 4
+                                            [code] => igniter.cart
+                                            [name] => Cart
+                                            [author] => SamPoyigi
+                                            [icon] => fa fa-shopping-cart
+                                            [type] => extension
+                                            [version] => v2.4.2
+                                            [description] => Easily add a shopping cart to your site. The most powerful way to sell your menu items.
+                                            [homepage] => https://tastyigniter.com/marketplace/item/igniter-cart
+                                            [created_at] => 2018-04-22T14:47:39.000000Z
+                                            [updated_at] => 2020-11-18T14:18:28.000000Z
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 1
+                                            [code] => igniter.frontend
+                                            [name] => FrontEnd
+                                            [author] => SamPoyigi
+                                            [icon] => fa fa-store
+                                            [type] => extension
+                                            [version] => v1.3.6
+                                            [description] => Manage basic components like Slider, Featured Menu Items, Banners and Newsletter
+                                            [homepage] => https://tastyigniter.com/marketplace/item/igniter-frontend
+                                            [created_at] => 2018-04-22T22:47:39.000000Z
+                                            [updated_at] => 2020-11-10T21:43:34.000000Z
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 7
+                                            [code] => igniter.local
+                                            [name] => Local
+                                            [author] => SamPoyigi
+                                            [icon] => fa fa-map-marker
+                                            [type] => extension
+                                            [version] => v1.7.2
+                                            [description] => This extension allows your customers to find the nearest location.
+                                            [homepage] => https://tastyigniter.com/marketplace/item/igniter-local
+                                            [created_at] => 2018-04-24T22:47:40.000000Z
+                                            [updated_at] => 2020-11-28T02:45:17.000000Z
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 5
+                                            [code] => igniter.pages
+                                            [name] => Pages
+                                            [author] => SamPoyigi
+                                            [icon] => fa fa-files-o
+                                            [type] => extension
+                                            [version] => v1.4.1
+                                            [description] => Provides static pages and navigation menus for your TastyIgniter application.
+                                            [homepage] => https://tastyigniter.com/marketplace/item/igniter-pages
+                                            [created_at] => 2018-04-23T22:47:39.000000Z
+                                            [updated_at] => 2020-11-06T16:52:38.000000Z
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => 2
+                                            [code] => igniter.payregister
+                                            [name] => Pay Register
+                                            [author] => SamPoyigi
+                                            [icon] => fa fa-money
+                                            [type] => extension
+                                            [version] => v1.3.6
+                                            [description] => Allows you to accept credit card payments using PayPal, Stripe, Authorize.Net and/or Mollie.
+                                            [homepage] => https://tastyigniter.com/marketplace/item/igniter-payregister
+                                            [created_at] => 2018-04-27T22:47:39.000000Z
+                                            [updated_at] => 2020-11-06T16:53:49.000000Z
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => 3
+                                            [code] => igniter.reservation
+                                            [name] => Reservations
+                                            [author] => SamPoyigi
+                                            [icon] => fa fa-calendar
+                                            [type] => extension
+                                            [version] => v1.2.3
+                                            [description] => Provides a simple booking form to accept table reservations.
+                                            [homepage] => https://tastyigniter.com/marketplace/item/igniter-reservation
+                                            [created_at] => 2018-04-27T22:47:39.000000Z
+                                            [updated_at] => 2020-11-09T21:47:08.000000Z
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 6
+                                            [code] => igniter.user
+                                            [name] => User
+                                            [author] => SamPoyigi
+                                            [icon] => fa fa-user
+                                            [type] => extension
+                                            [version] => v1.5.2
+                                            [description] => Management of front-end users (customers) on TastyIgniter.
+                                            [homepage] => https://tastyigniter.com/marketplace/item/igniter-user
+                                            [created_at] => 2018-04-27T22:47:40.000000Z
+                                            [updated_at] => 2020-11-06T16:45:40.000000Z
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [meta] => Array
+        (
+            [pagination] => Array
+                (
+                    [total] => 1
+                    [count] => 1
+                    [per_page] => 30
+                    [current_page] => 1
+                    [total_pages] => 1
+                    [links] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+[2020/11/28 05:22:14] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:22:14] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:22:14] => Foundation setup: apply
+[2020/11/28 05:22:14] => Server request: core/install
+[2020/11/28 05:22:15] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 1058
+    [request_size] => 768
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1.574
+    [namelookup_time] => 3.1E-5
+    [connect_time] => 0.040202
+    [pretransfer_time] => 0.710586
+    [size_upload] => 623
+    [size_download] => 2914
+    [speed_download] => 1851
+    [speed_upload] => 395
+    [download_content_length] => -1
+    [upload_content_length] => 623
+    [starttransfer_time] => 1.573891
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.115.215
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.64.4
+    [local_port] => 52672
+    [http_version] => 2
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+)
+
+[2020/11/28 05:22:15] => Foundation setup: apply +OK
+[2020/11/28 05:22:15] => Execute handler (onInstall): Array
+(
+    [result] => Array
+        (
+            [download] => Array
+                (
+                    [0] => Array
+                        (
+                            [action] => install
+                            [process] => downloadCore
+                            [code] => tastyigniter
+                            [name] => TastyIgniter
+                            [author] => Samuel Adepoyigi
+                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                            [icon] => icon-logo icon-ti-text-logo
+                            [type] => core
+                            [hash] => c154757608b805559ebf7500cec58c9a94f42e43
+                            [version] => v3.0.4-beta.24.4
+                            [published_at] => 2020-11-17T14:05:41.000000Z
+                        )
+
+                    [1] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.cart
+                            [name] => Cart
+                            [author] => SamPoyigi
+                            [description] => Easily add a shopping cart to your site. The most powerful way to sell your menu items.
+                            [icon] => fa fa-shopping-cart
+                            [type] => extension
+                            [hash] => 76fa7cce0865ec8a585cc19fcd84e116250a7edd
+                            [version] => v2.4.2
+                            [published_at] => 2020-11-09T21:32:49.000000Z
+                        )
+
+                    [2] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.frontend
+                            [name] => FrontEnd
+                            [author] => SamPoyigi
+                            [description] => Manage basic components like Slider, Featured Menu Items, Banners and Newsletter
+                            [icon] => fa fa-store
+                            [type] => extension
+                            [hash] => 83d7caa11ded1d1b76da5eef675cf808289bbffe
+                            [version] => v1.3.6
+                            [published_at] => 2020-11-10T21:42:22.000000Z
+                        )
+
+                    [3] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.local
+                            [name] => Local
+                            [author] => SamPoyigi
+                            [description] => This extension allows your customers to find the nearest location.
+                            [icon] => fa fa-map-marker
+                            [type] => extension
+                            [hash] => 46dc4417adfda419c6abe63ae9f2f25b32f9f75a
+                            [version] => v1.7.2
+                            [published_at] => 2020-11-15T02:29:12.000000Z
+                        )
+
+                    [4] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.pages
+                            [name] => Pages
+                            [author] => SamPoyigi
+                            [description] => Provides static pages and navigation menus for your TastyIgniter application.
+                            [icon] => fa fa-files-o
+                            [type] => extension
+                            [hash] => 8216fe834e58216f9b47443efa5712cee01b4cda
+                            [version] => v1.4.1
+                            [published_at] => 2020-11-06T16:48:35.000000Z
+                        )
+
+                    [5] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.payregister
+                            [name] => Pay Register
+                            [author] => SamPoyigi
+                            [description] => Allows you to accept credit card payments using PayPal, Stripe, Authorize.Net and/or Mollie.
+                            [icon] => fa fa-money
+                            [type] => extension
+                            [hash] => 46073f2210d1cafba11c0669328e15946705cbcf
+                            [version] => v1.3.6
+                            [published_at] => 2020-11-06T16:46:45.000000Z
+                        )
+
+                    [6] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.reservation
+                            [name] => Reservations
+                            [author] => SamPoyigi
+                            [description] => Provides a simple booking form to accept table reservations.
+                            [icon] => fa fa-calendar
+                            [type] => extension
+                            [hash] => 05fbfda8861c2d2fc92cbc7ef6a66959af47dc68
+                            [version] => v1.2.3
+                            [published_at] => 2020-11-09T21:45:28.000000Z
+                        )
+
+                    [7] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.user
+                            [name] => User
+                            [author] => SamPoyigi
+                            [description] => Management of front-end users (customers) on TastyIgniter.
+                            [icon] => fa fa-user
+                            [type] => extension
+                            [hash] => 2462790249dd0668870d28a1dffec694c88a5889
+                            [version] => v1.5.2
+                            [published_at] => 2020-11-06T16:44:56.000000Z
+                        )
+
+                    [8] => Array
+                        (
+                            [action] => install
+                            [process] => downloadTheme
+                            [code] => tastyigniter-orange
+                            [name] => TastyIgniter Orange
+                            [author] => TastyIgniter Dev Team
+                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap 4.
+                            [icon] => fa-paint-brush
+                            [type] => theme
+                            [hash] => 16ad72641791179b739ce1f0a13dbbaaedd9830f
+                            [version] => v2.7.0
+                            [published_at] => 2020-11-03T20:12:53.000000Z
+                        )
+
+                )
+
+            [extract] => Array
+                (
+                    [0] => Array
+                        (
+                            [action] => install
+                            [process] => extractCore
+                            [code] => tastyigniter
+                            [name] => TastyIgniter
+                            [author] => Samuel Adepoyigi
+                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                            [icon] => icon-logo icon-ti-text-logo
+                            [type] => core
+                            [hash] => c154757608b805559ebf7500cec58c9a94f42e43
+                            [version] => v3.0.4-beta.24.4
+                            [published_at] => 2020-11-17T14:05:41.000000Z
+                        )
+
+                    [1] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.cart
+                            [name] => Cart
+                            [author] => SamPoyigi
+                            [description] => Easily add a shopping cart to your site. The most powerful way to sell your menu items.
+                            [icon] => fa fa-shopping-cart
+                            [type] => extension
+                            [hash] => 76fa7cce0865ec8a585cc19fcd84e116250a7edd
+                            [version] => v2.4.2
+                            [published_at] => 2020-11-09T21:32:49.000000Z
+                        )
+
+                    [2] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.frontend
+                            [name] => FrontEnd
+                            [author] => SamPoyigi
+                            [description] => Manage basic components like Slider, Featured Menu Items, Banners and Newsletter
+                            [icon] => fa fa-store
+                            [type] => extension
+                            [hash] => 83d7caa11ded1d1b76da5eef675cf808289bbffe
+                            [version] => v1.3.6
+                            [published_at] => 2020-11-10T21:42:22.000000Z
+                        )
+
+                    [3] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.local
+                            [name] => Local
+                            [author] => SamPoyigi
+                            [description] => This extension allows your customers to find the nearest location.
+                            [icon] => fa fa-map-marker
+                            [type] => extension
+                            [hash] => 46dc4417adfda419c6abe63ae9f2f25b32f9f75a
+                            [version] => v1.7.2
+                            [published_at] => 2020-11-15T02:29:12.000000Z
+                        )
+
+                    [4] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.pages
+                            [name] => Pages
+                            [author] => SamPoyigi
+                            [description] => Provides static pages and navigation menus for your TastyIgniter application.
+                            [icon] => fa fa-files-o
+                            [type] => extension
+                            [hash] => 8216fe834e58216f9b47443efa5712cee01b4cda
+                            [version] => v1.4.1
+                            [published_at] => 2020-11-06T16:48:35.000000Z
+                        )
+
+                    [5] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.payregister
+                            [name] => Pay Register
+                            [author] => SamPoyigi
+                            [description] => Allows you to accept credit card payments using PayPal, Stripe, Authorize.Net and/or Mollie.
+                            [icon] => fa fa-money
+                            [type] => extension
+                            [hash] => 46073f2210d1cafba11c0669328e15946705cbcf
+                            [version] => v1.3.6
+                            [published_at] => 2020-11-06T16:46:45.000000Z
+                        )
+
+                    [6] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.reservation
+                            [name] => Reservations
+                            [author] => SamPoyigi
+                            [description] => Provides a simple booking form to accept table reservations.
+                            [icon] => fa fa-calendar
+                            [type] => extension
+                            [hash] => 05fbfda8861c2d2fc92cbc7ef6a66959af47dc68
+                            [version] => v1.2.3
+                            [published_at] => 2020-11-09T21:45:28.000000Z
+                        )
+
+                    [7] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.user
+                            [name] => User
+                            [author] => SamPoyigi
+                            [description] => Management of front-end users (customers) on TastyIgniter.
+                            [icon] => fa fa-user
+                            [type] => extension
+                            [hash] => 2462790249dd0668870d28a1dffec694c88a5889
+                            [version] => v1.5.2
+                            [published_at] => 2020-11-06T16:44:56.000000Z
+                        )
+
+                    [8] => Array
+                        (
+                            [action] => install
+                            [process] => extractTheme
+                            [code] => tastyigniter-orange
+                            [name] => TastyIgniter Orange
+                            [author] => TastyIgniter Dev Team
+                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap 4.
+                            [icon] => fa-paint-brush
+                            [type] => theme
+                            [hash] => 16ad72641791179b739ce1f0a13dbbaaedd9830f
+                            [version] => v2.7.0
+                            [published_at] => 2020-11-03T20:12:53.000000Z
+                        )
+
+                )
+
+            [config] => Array
+                (
+                    [0] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [code] => tastyigniter
+                                            [name] => TastyIgniter
+                                            [author] => Samuel Adepoyigi
+                                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                                            [icon] => icon-logo icon-ti-text-logo
+                                            [type] => core
+                                            [hash] => c154757608b805559ebf7500cec58c9a94f42e43
+                                            [version] => v3.0.4-beta.24.4
+                                            [published_at] => 2020-11-17T14:05:41.000000Z
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [code] => igniter.cart
+                                            [name] => Cart
+                                            [author] => SamPoyigi
+                                            [description] => Easily add a shopping cart to your site. The most powerful way to sell your menu items.
+                                            [icon] => fa fa-shopping-cart
+                                            [type] => extension
+                                            [hash] => 76fa7cce0865ec8a585cc19fcd84e116250a7edd
+                                            [version] => v2.4.2
+                                            [published_at] => 2020-11-09T21:32:49.000000Z
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [code] => igniter.frontend
+                                            [name] => FrontEnd
+                                            [author] => SamPoyigi
+                                            [description] => Manage basic components like Slider, Featured Menu Items, Banners and Newsletter
+                                            [icon] => fa fa-store
+                                            [type] => extension
+                                            [hash] => 83d7caa11ded1d1b76da5eef675cf808289bbffe
+                                            [version] => v1.3.6
+                                            [published_at] => 2020-11-10T21:42:22.000000Z
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [code] => igniter.local
+                                            [name] => Local
+                                            [author] => SamPoyigi
+                                            [description] => This extension allows your customers to find the nearest location.
+                                            [icon] => fa fa-map-marker
+                                            [type] => extension
+                                            [hash] => 46dc4417adfda419c6abe63ae9f2f25b32f9f75a
+                                            [version] => v1.7.2
+                                            [published_at] => 2020-11-15T02:29:12.000000Z
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [code] => igniter.pages
+                                            [name] => Pages
+                                            [author] => SamPoyigi
+                                            [description] => Provides static pages and navigation menus for your TastyIgniter application.
+                                            [icon] => fa fa-files-o
+                                            [type] => extension
+                                            [hash] => 8216fe834e58216f9b47443efa5712cee01b4cda
+                                            [version] => v1.4.1
+                                            [published_at] => 2020-11-06T16:48:35.000000Z
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [code] => igniter.payregister
+                                            [name] => Pay Register
+                                            [author] => SamPoyigi
+                                            [description] => Allows you to accept credit card payments using PayPal, Stripe, Authorize.Net and/or Mollie.
+                                            [icon] => fa fa-money
+                                            [type] => extension
+                                            [hash] => 46073f2210d1cafba11c0669328e15946705cbcf
+                                            [version] => v1.3.6
+                                            [published_at] => 2020-11-06T16:46:45.000000Z
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [code] => igniter.reservation
+                                            [name] => Reservations
+                                            [author] => SamPoyigi
+                                            [description] => Provides a simple booking form to accept table reservations.
+                                            [icon] => fa fa-calendar
+                                            [type] => extension
+                                            [hash] => 05fbfda8861c2d2fc92cbc7ef6a66959af47dc68
+                                            [version] => v1.2.3
+                                            [published_at] => 2020-11-09T21:45:28.000000Z
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [code] => igniter.user
+                                            [name] => User
+                                            [author] => SamPoyigi
+                                            [description] => Management of front-end users (customers) on TastyIgniter.
+                                            [icon] => fa fa-user
+                                            [type] => extension
+                                            [hash] => 2462790249dd0668870d28a1dffec694c88a5889
+                                            [version] => v1.5.2
+                                            [published_at] => 2020-11-06T16:44:56.000000Z
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [code] => tastyigniter-orange
+                                            [name] => TastyIgniter Orange
+                                            [author] => TastyIgniter Dev Team
+                                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap 4.
+                                            [icon] => fa-paint-brush
+                                            [type] => theme
+                                            [hash] => 16ad72641791179b739ce1f0a13dbbaaedd9830f
+                                            [version] => v2.7.0
+                                            [published_at] => 2020-11-03T20:12:53.000000Z
+                                        )
+
+                                )
+
+                            [process] => writeConfig
+                        )
+
+                )
+
+            [install] => Array
+                (
+                    [0] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [code] => tastyigniter
+                                            [name] => TastyIgniter
+                                            [author] => Samuel Adepoyigi
+                                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                                            [icon] => icon-logo icon-ti-text-logo
+                                            [type] => core
+                                            [hash] => c154757608b805559ebf7500cec58c9a94f42e43
+                                            [version] => v3.0.4-beta.24.4
+                                            [published_at] => 2020-11-17T14:05:41.000000Z
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [code] => igniter.cart
+                                            [name] => Cart
+                                            [author] => SamPoyigi
+                                            [description] => Easily add a shopping cart to your site. The most powerful way to sell your menu items.
+                                            [icon] => fa fa-shopping-cart
+                                            [type] => extension
+                                            [hash] => 76fa7cce0865ec8a585cc19fcd84e116250a7edd
+                                            [version] => v2.4.2
+                                            [published_at] => 2020-11-09T21:32:49.000000Z
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [code] => igniter.frontend
+                                            [name] => FrontEnd
+                                            [author] => SamPoyigi
+                                            [description] => Manage basic components like Slider, Featured Menu Items, Banners and Newsletter
+                                            [icon] => fa fa-store
+                                            [type] => extension
+                                            [hash] => 83d7caa11ded1d1b76da5eef675cf808289bbffe
+                                            [version] => v1.3.6
+                                            [published_at] => 2020-11-10T21:42:22.000000Z
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [code] => igniter.local
+                                            [name] => Local
+                                            [author] => SamPoyigi
+                                            [description] => This extension allows your customers to find the nearest location.
+                                            [icon] => fa fa-map-marker
+                                            [type] => extension
+                                            [hash] => 46dc4417adfda419c6abe63ae9f2f25b32f9f75a
+                                            [version] => v1.7.2
+                                            [published_at] => 2020-11-15T02:29:12.000000Z
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [code] => igniter.pages
+                                            [name] => Pages
+                                            [author] => SamPoyigi
+                                            [description] => Provides static pages and navigation menus for your TastyIgniter application.
+                                            [icon] => fa fa-files-o
+                                            [type] => extension
+                                            [hash] => 8216fe834e58216f9b47443efa5712cee01b4cda
+                                            [version] => v1.4.1
+                                            [published_at] => 2020-11-06T16:48:35.000000Z
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [code] => igniter.payregister
+                                            [name] => Pay Register
+                                            [author] => SamPoyigi
+                                            [description] => Allows you to accept credit card payments using PayPal, Stripe, Authorize.Net and/or Mollie.
+                                            [icon] => fa fa-money
+                                            [type] => extension
+                                            [hash] => 46073f2210d1cafba11c0669328e15946705cbcf
+                                            [version] => v1.3.6
+                                            [published_at] => 2020-11-06T16:46:45.000000Z
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [code] => igniter.reservation
+                                            [name] => Reservations
+                                            [author] => SamPoyigi
+                                            [description] => Provides a simple booking form to accept table reservations.
+                                            [icon] => fa fa-calendar
+                                            [type] => extension
+                                            [hash] => 05fbfda8861c2d2fc92cbc7ef6a66959af47dc68
+                                            [version] => v1.2.3
+                                            [published_at] => 2020-11-09T21:45:28.000000Z
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [code] => igniter.user
+                                            [name] => User
+                                            [author] => SamPoyigi
+                                            [description] => Management of front-end users (customers) on TastyIgniter.
+                                            [icon] => fa fa-user
+                                            [type] => extension
+                                            [hash] => 2462790249dd0668870d28a1dffec694c88a5889
+                                            [version] => v1.5.2
+                                            [published_at] => 2020-11-06T16:44:56.000000Z
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [code] => tastyigniter-orange
+                                            [name] => TastyIgniter Orange
+                                            [author] => TastyIgniter Dev Team
+                                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap 4.
+                                            [icon] => fa-paint-brush
+                                            [type] => theme
+                                            [hash] => 16ad72641791179b739ce1f0a13dbbaaedd9830f
+                                            [version] => v2.7.0
+                                            [published_at] => 2020-11-03T20:12:53.000000Z
+                                        )
+
+                                )
+
+                            [process] => finishInstall
+                        )
+
+                )
+
+        )
+
+)
+
+[2020/11/28 05:22:15] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:22:15] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:22:15] => Foundation setup: downloadCore
+[2020/11/28 05:22:34] => Downloaded file (tastyigniter) to /opt/lampp/htdocs/menoo/setup/temp/ef0eaeec4a461084eb2522e05b439f26.zip
+[2020/11/28 05:22:34] => Foundation setup: downloadCore +OK
+[2020/11/28 05:22:34] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:22:34] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:22:34] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:22:34] => Foundation setup: downloadExtension
+[2020/11/28 05:22:37] => Downloaded file (igniter.cart) to /opt/lampp/htdocs/menoo/setup/temp/fa282679dd2434cdae8d547d1c5c5d8c.zip
+[2020/11/28 05:22:37] => Foundation setup: downloadExtension +OK
+[2020/11/28 05:22:37] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:22:37] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:22:37] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:22:37] => Foundation setup: downloadExtension
+[2020/11/28 05:22:40] => Downloaded file (igniter.frontend) to /opt/lampp/htdocs/menoo/setup/temp/db3a6d1fa569f443562a66b03548a222.zip
+[2020/11/28 05:22:40] => Foundation setup: downloadExtension +OK
+[2020/11/28 05:22:40] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:22:41] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:22:41] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:22:41] => Foundation setup: downloadExtension
+[2020/11/28 05:22:45] => Downloaded file (igniter.local) to /opt/lampp/htdocs/menoo/setup/temp/587037c94cc1682b021f543fa2deb6a4.zip
+[2020/11/28 05:22:45] => Foundation setup: downloadExtension +OK
+[2020/11/28 05:22:45] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:22:46] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:22:46] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:22:46] => Foundation setup: downloadExtension
+[2020/11/28 05:22:48] => Downloaded file (igniter.pages) to /opt/lampp/htdocs/menoo/setup/temp/00afe6d516eb67a1f310fe21b7650e46.zip
+[2020/11/28 05:22:48] => Foundation setup: downloadExtension +OK
+[2020/11/28 05:22:48] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:22:49] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:22:49] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:22:49] => Foundation setup: downloadExtension
+[2020/11/28 05:22:54] => Downloaded file (igniter.payregister) to /opt/lampp/htdocs/menoo/setup/temp/58f34c1535ce366d87573c5f9da1138e.zip
+[2020/11/28 05:22:54] => Foundation setup: downloadExtension +OK
+[2020/11/28 05:22:54] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:22:55] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:22:55] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:22:55] => Foundation setup: downloadExtension
+[2020/11/28 05:23:29] => Downloaded file (igniter.reservation) to /opt/lampp/htdocs/menoo/setup/temp/be3c89d37e593618642ef2e5f7e198c7.zip
+[2020/11/28 05:23:29] => Foundation setup: downloadExtension +OK
+[2020/11/28 05:23:29] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:29] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:29] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:29] => Foundation setup: downloadExtension
+[2020/11/28 05:23:31] => Downloaded file (igniter.user) to /opt/lampp/htdocs/menoo/setup/temp/af880bead8ef53d0b8be6e480655ca02.zip
+[2020/11/28 05:23:31] => Foundation setup: downloadExtension +OK
+[2020/11/28 05:23:31] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:31] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:31] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:31] => Foundation setup: downloadTheme
+[2020/11/28 05:23:38] => Downloaded file (tastyigniter-orange) to /opt/lampp/htdocs/menoo/setup/temp/d524ceb31a7e131d7d22e6398a45a960.zip
+[2020/11/28 05:23:38] => Foundation setup: downloadTheme +OK
+[2020/11/28 05:23:38] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:38] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:38] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:38] => Foundation setup: extractCore
+[2020/11/28 05:23:38] => Extracting [tastyigniter] file ef0eaeec4a461084eb2522e05b439f26.zip
+[2020/11/28 05:23:39] => Foundation setup: extractCore +OK
+[2020/11/28 05:23:39] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:40] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:40] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:40] => Foundation setup: extractExtension
+[2020/11/28 05:23:40] => Extracting [igniter.cart] file fa282679dd2434cdae8d547d1c5c5d8c.zip
+[2020/11/28 05:23:40] => Foundation setup: extractExtension +OK
+[2020/11/28 05:23:40] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:40] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:40] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:40] => Foundation setup: extractExtension
+[2020/11/28 05:23:40] => Extracting [igniter.frontend] file db3a6d1fa569f443562a66b03548a222.zip
+[2020/11/28 05:23:40] => Foundation setup: extractExtension +OK
+[2020/11/28 05:23:40] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:41] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:41] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:41] => Foundation setup: extractExtension
+[2020/11/28 05:23:41] => Extracting [igniter.local] file 587037c94cc1682b021f543fa2deb6a4.zip
+[2020/11/28 05:23:41] => Foundation setup: extractExtension +OK
+[2020/11/28 05:23:41] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:41] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:41] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:41] => Foundation setup: extractExtension
+[2020/11/28 05:23:41] => Extracting [igniter.pages] file 00afe6d516eb67a1f310fe21b7650e46.zip
+[2020/11/28 05:23:41] => Foundation setup: extractExtension +OK
+[2020/11/28 05:23:41] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:42] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:42] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:42] => Foundation setup: extractExtension
+[2020/11/28 05:23:42] => Extracting [igniter.payregister] file 58f34c1535ce366d87573c5f9da1138e.zip
+[2020/11/28 05:23:42] => Foundation setup: extractExtension +OK
+[2020/11/28 05:23:42] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:42] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:42] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:42] => Foundation setup: extractExtension
+[2020/11/28 05:23:42] => Extracting [igniter.reservation] file be3c89d37e593618642ef2e5f7e198c7.zip
+[2020/11/28 05:23:42] => Foundation setup: extractExtension +OK
+[2020/11/28 05:23:42] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:43] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:43] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:43] => Foundation setup: extractExtension
+[2020/11/28 05:23:43] => Extracting [igniter.user] file af880bead8ef53d0b8be6e480655ca02.zip
+[2020/11/28 05:23:43] => Foundation setup: extractExtension +OK
+[2020/11/28 05:23:43] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:43] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:43] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:43] => Foundation setup: extractTheme
+[2020/11/28 05:23:43] => Extracting [tastyigniter-orange] file d524ceb31a7e131d7d22e6398a45a960.zip
+[2020/11/28 05:23:44] => Foundation setup: extractTheme +OK
+[2020/11/28 05:23:44] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:44] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:44] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:44] => Foundation setup: writeConfig
+[2020/11/28 04:23:44] => Foundation setup: writeConfig +OK
+[2020/11/28 04:23:44] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2020/11/28 05:23:45] => .============================ POST REQUEST ==========================.
+[2020/11/28 05:23:45] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/11/28 05:23:45] => Foundation setup: finishInstall
+[2020/11/28 04:23:50] => Foundation setup: finishInstall +OK
+[2020/11/28 04:23:50] => Execute handler (onInstall): Array
+(
+    [result] => http://localhost:8080/menoo/admin/login
+)
+

@@ -1,0 +1,35 @@
+[2020-11-28 23:33:31] development.INFO: Compiling registered asset bundles...
+app.scss
+ -> /themes/tastyigniter-orange/assets/css/app.css
+Compiling registered asset bundles...
+flame.js, affix.js, select2.min.js, jquery.raty.js, app.js
+ -> /themes/tastyigniter-orange/assets/js/app.js
+  
+[2020-11-29 01:56:16] development.INFO: Client error: `GET https://openexchangerates.org/api/latest.json?app_id=&base=4&symbols=GBP,USD,CNY,AUD,NGN` resulted in a `403 Forbidden` response:
+{
+  "error": true,
+  "status": 403,
+  "message": "missing_app_id",
+  "description": "No App ID provided. Please sign up  (truncated...)
+  
+[2020-11-29 01:56:48] development.INFO: Client error: `GET https://openexchangerates.org/api/latest.json?app_id=&base=4&symbols=GBP,USD,CNY,AUD,NGN` resulted in a `403 Forbidden` response:
+{
+  "error": true,
+  "status": 403,
+  "message": "missing_app_id",
+  "description": "No App ID provided. Please sign up  (truncated...)
+  
+[2020-11-29 01:58:00] development.INFO: Client error: `GET https://openexchangerates.org/api/latest.json?app_id=&base=7&symbols=GBP,USD,CNY,AUD,NGN,IDR` resulted in a `403 Forbidden` response:
+{
+  "error": true,
+  "status": 403,
+  "message": "missing_app_id",
+  "description": "No App ID provided. Please sign up  (truncated...)
+  
+[2020-11-29 01:58:10] development.INFO: Client error: `GET https://openexchangerates.org/api/latest.json?app_id=&base=7&symbols=GBP,USD,CNY,AUD,NGN,IDR` resulted in a `403 Forbidden` response:
+{
+  "error": true,
+  "status": 403,
+  "message": "missing_app_id",
+  "description": "No App ID provided. Please sign up  (truncated...)
+  
